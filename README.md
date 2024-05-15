@@ -1,4 +1,4 @@
-# deepfake-detection
+# Deepfake-Video-Detection
 The DeepFake Detection Web Application is a web application designed to identify whether uploaded videos are authentic or deepfake. 
 
 The detection model is based on CNN with LSTM architecture that scrutinizes the temporal facial movement characteristics within videos to determine their authenticity. The model is trained on the preprocessed dataset. The dataset is preprocessed by resizing, cropping face area and extracting landmarks, blendshapes and facial crops from the cropped face. Further, the model is tested to ensure its effectiveness and performance.
@@ -7,6 +7,11 @@ The web application offers a user-friendly interface, built using ReactJS. It co
 
 For the further information on the project like dataset, model performance etc., please refer the documentation provided in the code section.
 For the access to the dataset and model weights, please contact us at [Deepfakedetectionprojectkhwopa@gmail.com](mailto:deepfakedetectionprojectkhwopa@gmail.com).
+
+Clone the repository:
+```bash
+git clone https://github.com/pragya-02/Deepfake-Video-Detection.git
+```
 
 ## Installation
 A. Train Jupyter Notebook and API Source Code:
